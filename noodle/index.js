@@ -1,10 +1,10 @@
 var noodle = require('noodlejs');
 
 noodle.query({
-  url: 'http://www.flipkart.com/',
+  url: 'http://samarpanda.com/',
   type: 'html',
-  selector: 'li.ccarousel-item',
-  extract: 'text'
+  selector: 'a',
+  extract: 'href'
 })
 .then(function (results) {
   console.log(results);
