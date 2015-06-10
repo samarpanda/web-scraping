@@ -15,8 +15,10 @@
   "author": "Samar Panda <samar.panda84@gmail.com> (http://samarpanda.com)",
   "license": "ISC",
   "dependencies": {
+    "ineed": "^1.0.4",
     "noodlejs": "^0.3.2",
     "osmosis": "0.0.6",
-    "x-ray": "^2.0.0"
+    "x-ray": "^2.0.0",
+    "yakuza": "^1.0.5"
   }
 }
